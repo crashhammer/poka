@@ -112,6 +112,14 @@ RunService:Set3dRenderingEnabled(false)
 _G.ShowUp = true
 savegpu()
 
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
+game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
+StarterGui:SetCoreGuiEnabled(Enum. CoreGuiType. Backpack, false)
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Health, false)
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
 
 script_key="OxWVNKAoCbqfbbIwHpzFqbLTRBZcqdxT";
 loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
