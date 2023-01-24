@@ -1,6 +1,6 @@
 script_key="OxWVNKAoCbqfbbIwHpzFqbLTRBZcqdxT";
 loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
-
+wait(4)
 local RenderDistance = 0
 
 local Players = game:GetService('Players')
